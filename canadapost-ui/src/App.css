@@ -1,0 +1,165 @@
+thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    padding: 18px;
+    text-align: center;
+}
+
+td.position {
+    width: 35%;
+}
+
+th {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.upper,
+.lower {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 1px solid darkblue;
+    margin: 0 5px;
+}
+
+.upper {
+    background-color: #d9edf7;
+}
+
+.lower {
+    background-color: #fcf8e3;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes flash {
+    0% {
+        border-color: rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        border-color: rgb(0, 132, 255);
+    }
+
+    100% {
+        border-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.flash {
+    animation: flash 0.4s linear;
+    border-width: 1px;
+    border-style: solid;
+}
+
+@keyframes flash-bg {
+
+    0%,
+    100% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: rgba(124, 231, 91, 0.692);
+    }
+}
+
+.flash-bg {
+    animation: flash-bg 0.4s linear;
+}
+
+@keyframes flash-bg-delete {
+
+    0%,
+    100% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: rgba(255, 0, 0, 0.5);
+    }
+}
+
+.flash-bg-delete {
+    animation: flash-bg-delete 0.4s linear;
+}
+
+.form-control-dark {
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+    outline: 0;
+}
+
+.fs-6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table>tbody>tr {
+    background-color: #f2f2f2;
+}
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+footer {
+    background-color: #f5f5f5;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.box {
+    width: 90px;
+    height: 40px;
+    margin: auto;
+}
+
+.rectangle-box {
+    width: 135px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: auto;
+  }
+
+.rectangle-name {
+    width: 35px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding-right: 6px;
+  }
+
