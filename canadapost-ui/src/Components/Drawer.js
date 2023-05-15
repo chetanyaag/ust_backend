@@ -27,11 +27,11 @@ function Drawer({onCond}){
 <br/>
 
 <ul className="list-group">
-  <li className="list-group-item active" style={{backgroundColor:"#DCDBDB", borderColor:"black", borderRadius:"0"}}>Tracker</li>
-  <li className="list-group-item"  style={{ borderColor:"black", borderRadius:"0px"}}>Reports</li>
-  <li className="list-group-item"  style={{ borderColor:"black", borderRadius:"0"}}>Analytics</li>
-  <li className="list-group-item"  style={{ borderColor:"black", borderRadius:"0"}}>Planing</li>
-  <li className="list-group-item"  style={{  borderRadius:"0"}}>Set Alerts</li>
+  <li className="list-group-item active" style={{backgroundColor:"#DCDBDB", borderColor:"black", borderRadius:"0", color:"black"}}>Tracker</li>
+  <li className="list-group-item"  style={{backgroundColor:"#b8dde7", borderColor:"black", borderRadius:"0px"}}>Reports</li>
+  <li className="list-group-item"  style={{backgroundColor:"#b8dde7", borderColor:"black", borderRadius:"0"}}>Analytics</li>
+  <li className="list-group-item"  style={{backgroundColor:"#b8dde7", borderColor:"black", borderRadius:"0"}}>Planing</li>
+  <li className="list-group-item"  style={{backgroundColor:"#b8dde7",  borderRadius:"0"}}>Set Alerts</li>
 
 </ul> 
 

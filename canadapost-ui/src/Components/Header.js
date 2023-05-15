@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
 import { IoMenu } from "react-icons/io5";
+
+
+
 const Header = ( {onCond} ) => {
 
  const [isClick, setIsClick] = useState(false) 
@@ -18,7 +21,7 @@ const handleClick=()=>{
 
   return (
     <div className="" >
-    <header className="d-flex flex-wrap justify-content-center py-3 mb-1 border-bottom">
+    <header className="d-flex flex-wrap justify-content-center py-3 mb-1 border-bottom" style={{background:"#b8dde7"}}>
     <button className="btn btn-lg" onClick={handleClick}>
         <IoMenu/></button>
       <a href="#" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -27,8 +30,9 @@ const handleClick=()=>{
         <br />
       </a>
       <ul className="nav nav-pills">
+
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style={{ color: "rgb(47, 47, 47)" }}>
+          <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style={{ color: "rgb(47, 47, 47)" , marginRight:"20px"}}>
             <div style={{ margin: 0, padding: 0, fontSize: "10px" }}>Sites</div>Canada Post
           </a>
           <div className="dropdown-menu">
@@ -37,7 +41,7 @@ const handleClick=()=>{
             </a>
           </div>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" style={{marginRight:"20px"}}>
           <a href="#" className="nav-link">
             <i className="far fa-bell" style={{ fontSize: "28px", color: "rgb(115, 114, 114)" }}></i>
           </a>

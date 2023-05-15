@@ -18,7 +18,8 @@ code {
   left: 0;
   width: 120px;
   overflow-y: auto;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
+  background-color: #b8dde7;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
 
 }
