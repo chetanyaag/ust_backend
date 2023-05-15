@@ -82,7 +82,11 @@ def fetch_data1(request):
     }
 
     ers = requests.get(url, headers=headers)
-    return JsonResponse(ers.json(), safe=False)
+    try:
+        return JsonResponse(ers.json(), safe=False)
+
+    except:
+        return JsonResponse([], safe=False)
 
 def get_lane_data(request):
     lane_data = LaneData.objects.all()
